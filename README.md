@@ -1,14 +1,14 @@
 # TuDolarVenezuela Frontend (React)
 
-Este es un proyecto personal que consume una API para mostrar el precio del dólar en Venezuela diariamente.
+This is a personal project that consumes an API to display the daily exchange rate of the US dollar in Venezuela.
 
-## Funcionalidad
+## Functionality
 
-El frontend utiliza una API personalizada para obtener el precio del dólar en Venezuela y mostrarlo en la página principal. El precio se actualiza automáticamente cada 8 horas.
+The frontend uses a custom API to retrieve the dollar exchange rate in Venezuela and display it on the main page. The rate updates automatically every 8 hours.
 
-## Tecnologías
+## Technologies
 
-Este proyecto utiliza las siguientes tecnologías:
+This project uses the following technologies:
 
 - Vite
 - React
@@ -16,6 +16,6 @@ Este proyecto utiliza las siguientes tecnologías:
 - CSS
 - JavaScript
 
-## Nota
+## Note
 
-Este es un proyecto personal creado por Jonathan Peña que muestra el precio del dólar en Venezuela utilizando una API privada. No se aceptan contribuciones.
+This is a personal project created by Jonathan Peña that displays the US dollar exchange rate in Venezuela using a private API. Contributions are not accepted.

@@ -1,4 +1,4 @@
-import { CardInterface } from '../interfaces/card.interface';
+import { CardInterface } from '../types/card.types';
 import { format } from 'date-fns';
 
 export const InitialData: CardInterface[] = [

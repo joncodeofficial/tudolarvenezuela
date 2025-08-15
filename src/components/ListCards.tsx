@@ -1,5 +1,5 @@
 import Card from './Card';
-import { CardInterface } from '../interfaces/card.interface';
+import { CardInterface } from '../types/card.types';
 import { usePrices } from '../hooks/usePrices';
 
 const ListCards = () => {

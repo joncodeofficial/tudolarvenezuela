@@ -1,5 +1,3 @@
-import Loader from './Loader';
-
 const Footer = () => {
   return (
     <footer className='w-screen absolute left-0 bottom-0 card-btn one py-4 text-center'>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import { createWorker } from 'tesseract.js';
 import { findPrice } from '../utils/findPrice';
-import { CardInterface } from '../interfaces/card.interface';
+import { CardInterface } from '../types/card.types';
 import { InitialData } from '../constants';
 
 export const usePrices = () => {

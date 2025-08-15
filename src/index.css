@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 :root {
   --color-f: #d507ff;
@@ -100,7 +98,7 @@
 
 body {
   text-align: center;
-  @apply bg-sky-50 font-roboto;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
 

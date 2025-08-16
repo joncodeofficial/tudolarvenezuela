@@ -17,8 +17,7 @@ export const usePrices = () => {
         const prices: CardInterface[] = [];
         const worker = await createWorker('spa');
 
-        const imageUrl =
-          'https://cors-anywhere.joncode.workers.dev/?url=https://monitordolarvenezuela.com/mdv-img/mdw.webp';
+        const imageUrl = import.meta.env.VITE_IMAGE_URL;
         const { data } = await worker.recognize(imageUrl);
 
         InitialData.forEach((card) => {

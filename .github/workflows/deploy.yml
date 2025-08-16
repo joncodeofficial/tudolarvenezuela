@@ -50,6 +50,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
+        env:
+          VITE_IMAGE_URL: ${{ secrets.VITE_IMAGE_URL }}
         run: pnpm run build
 
       - name: Setup Pages
